@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-    process.env.MA_VARIABLE, // TODO
+    process.env.LINK, // TODO
   {
     dialectOptions: {
       ssl: {
